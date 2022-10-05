@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>COMET Compiler</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../../index.html" class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-home w3-text-green w3-margin-right"></i>Home</a>
+    <a href="../../github.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GitHub</a>
+    <a href="../../tutorials.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tutorials</a>
+<!---     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Publications</a> -->
+    <a href="../../team.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
+    <a href="../../contacts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacts</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="../../index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="../../github.html" class="w3-bar-item w3-button w3-padding-large">GitHub</a>
+    <a href="../../tutorials.html" class="w3-bar-item w3-button w3-padding-large">Tutorials</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:64px 16px">
+  <h1 class="w3-margin w3-jumbo">COMET Compiler</h1>
+  <p class="w3-xlarge">Write once, run everywhere...</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>PACT'22 -- October 9th, 2022</h1>
+      <h5 class="w3-padding-32">Introduction to COMET</h5>
+      <p class="w3-text-grey"><b class="w3-text-green">Logistics</b>: Sunday October 9th, 2022 -- 9.00am-12.00pm CDT</p>
+      <p class="w3-text-grey"><b class="w3-text-green">Objectives</b>: TBA.</p>
+      <p class="w3-text-grey"><b class="w3-text-green">Abstract</b>: TBA
+      </p>
+      <p class="w3-text-grey"><b class="w3-text-green">Tutorial Docker Image</b>: 
+        <a href="https://hub.docker.com/repository/docker/minoscomputing/ppopp21/tags?page=1&ordering=last_updated"> COMET Docker Image </a>
+      </p>
+
+      <table class="w3-table-all w3-hoverable">
+        <tr class="w3-green">
+          <th>Time (PST)</th>
+          <th>Topic</th>
+          <th>Presenter</th>
+          <th>Material</th>
+        </tr>
+
+        <tr>
+          <th>2.00-2.30</th>
+          <th>Introduction</th>
+          <th>R. Gioiosa</th>
+          <th><a href="./slides/10%20Introduction.pdf">Slides</a></th>
+        </tr>
+
+        <tr>
+          <th>2.30-3.30</th>
+          <th>Hands-on Session</th>
+          <th>R. Gioiosa</th>
+          <th><a href="./slides/20%20Hands-on.pdf">Slides</a> 
+              <a href="https://github.com/minos-computing/minos-computing.github.io/tree/main/tutorials/ppopp21/code/20%20handson">Code</th>
+        </tr>
+
+        <tr>
+          <th>3.30-4.30</th>
+          <th>Multi-GPU systems</th>
+          <th>A. Kamatar</th>
+          <th><a href="./slides/30%20Multi-GPU.pdf">Slides</a> 
+              <a href="https://github.com/minos-computing/minos-computing.github.io/tree/main/tutorials/ppopp21/code/30%20multi_gpu/BFS">Code</a></th>
+        </tr>
+
+        <tr>
+          <th>4.30-5.30</th>
+          <th>Alternative resources</th>
+          <th>R. Friese</th>
+          <th><a href="./slides/40%20NVDLA.pdf">Slides</a> 
+              <a href="https://github.com/minos-computing/minos-computing.github.io/tree/main/tutorials/ppopp21/code/40%20nvdla">Code</a></th>
+        </tr>
+
+        <tr>
+          <th>5.30-6.00</th>
+          <th>Q&A and Conclusions</th>
+          <th>All</th>
+          <th><a href="./slides/50%20Conclusions.pdf">Slides</a></th>
+        </tr>
+      </table>
+       
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-32">
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <!--
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div> -->
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
